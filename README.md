@@ -6,9 +6,9 @@
 # EHTModel
 This Julia package aims to provide a generic interface to handle various type of parametrized intensity models for radio and optical interfeometric data sets (in particular in the emphasis of VLBI data sets).
 
-The conceptial idea of the interface is largely based on the Lindy Blackburn's ([@lindybaclburn](https://github.com/lindyblackburn)) python library [modmod](https://github.com/lindyblackburn/modmod), which allows:
+The conceptial idea of the interface is largely based on the Lindy Blackburn's ([@lindybackburn](https://github.com/lindyblackburn)) python library [modmod](https://github.com/lindyblackburn/modmod), which allows:
 - to compose a generic and hybrid model of various parameterized models including geometric and more generic pixeltized image models through basic primitives and transformations.
 - to have analytic or numerical correspondence between image and fourier domain.
 - delayed evaluation of image or uv products of a model through computational graph.
 
-This package is a partial folk (or purge) of the Paul Tiede's ([@ptiede](https://github.com/ptiede)) Julia package [Comrade.jl](https://github.com/ptiede/Comrade.jl), implementing the above interface for the parameterized model. The pure Julia imprementation of parametrized models offer efficient integration of these functions for various inference packages available in Julia science community.
+This package is a partial folk (or purge) of the Paul Tiede's ([@ptiede](https://github.com/ptiede)) Julia package [Comrade.jl](https://github.com/ptiede/Comrade.jl), implementing the above interface for the parameterized model. The pure Julia imprementation of parametrized models offer efficient integration of these functions into various inference packages available in Julia.
