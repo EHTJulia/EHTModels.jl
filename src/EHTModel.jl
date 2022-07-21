@@ -1,4 +1,4 @@
-module SMILIModelBase
+module EHTModel
 
 # Write your package code here.
 

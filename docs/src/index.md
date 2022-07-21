@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = SMILIModelBase
+CurrentModule = EHTModel
 ```
 
-# SMILIModelBase
+# EHTModel
 
-Documentation for [SMILIModelBase](https://github.com/EHTJulia/SMILIModelBase.jl).
+Documentation for [EHTModel](https://github.com/EHTJulia/EHTModel.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [SMILIModelBase]
+Modules = [EHTModel]
 ```
