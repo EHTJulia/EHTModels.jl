@@ -1,0 +1,13 @@
+name = "SMILIModelBase"
+uuid = "aba06f68-8285-4329-b7bf-b3157c6bc00b"
+authors = ["Kazunori Akiyama"]
+version = "0.1.0"
+
+[compat]
+julia = "1.7.3"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
