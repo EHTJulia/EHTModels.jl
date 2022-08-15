@@ -139,7 +139,7 @@ function transform_uv end
 @inline function visibility_point(m::AbstractModifier, u, v, args...)
     ut, vt = transform_uv(m, u, v)
     scale = scale_uv(m, u, v)
-    scale * visibility(basemodel(m), ut, vt, args...)
+    scale * visibility_point(basemodel(m), ut, vt, args...)  # originally Comrade code uses visibiltiy function
 end
 
 @inline function intensity_point(m::AbstractModifier, x, y)
