@@ -9,10 +9,9 @@ Uniform disk geometrical model, i.e. the intensity profile
 i.e. a unit radius and unit flux disk.
 By default if T isn't given, `Disk` defaults to `Float64`
 """
-
 struct Disk{T} <: GeometricModel end
 Disk() = Disk{Float64}()
-radialextent(::Disk{T}) = 3.0
+radialextent(::Disk{T}) where {T} = 3.0
 
 @inline function intensity_point(::Disk{T}, x, y, args...) where {T}
     r = x^2 + y^2
