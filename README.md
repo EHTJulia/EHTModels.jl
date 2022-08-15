@@ -11,4 +11,9 @@ The conceptial idea of the interface is largely based on the Lindy Blackburn's (
 - to have analytic or numerical correspondence between image and fourier domain.
 - delayed evaluation of image or uv products of a model through computational graph.
 
-This package is a partial folk (or purge) of the Paul Tiede's ([@ptiede](https://github.com/ptiede)) Julia package [Comrade.jl](https://github.com/ptiede/Comrade.jl), implementing the above interface for the parameterized model. The pure Julia imprementation of parametrized models offer efficient integration of these functions into various inference packages available in Julia.
+This package is a partial fork (or purge) of the Paul Tiede's ([@ptiede](https://github.com/ptiede)) Julia package [Comrade.jl](https://github.com/ptiede/Comrade.jl), implementing the above interface for the parameterized model. The pure Julia imprementation of parametrized models offer efficient integration of these functions into various inference packages available in Julia.
+
+
+## Documentation
+The [latest](https://ehtjulia.github.io/EHTModel.jl/dev) version available. The stable version has not been released. 
+
