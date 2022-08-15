@@ -1,7 +1,7 @@
 export GeometricModel
 
 """
-$(TYPEDEF)
+    $(TYPEDEF)
 A type that defines it is a geometric model. These are usually
 primitive models, and are usually analytic in Fourier and the image domain.
 As a result a user only needs to implement the following methods

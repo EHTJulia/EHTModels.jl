@@ -1,7 +1,7 @@
 export Disk
 
 @doc raw"""
-    Disk{T}() where {T}
+    $(TYPEDEF)
 Uniform disk geometrical model, i.e. the intensity profile
 ```math
     I(x,y) = \begin{cases} \pi^{-1} & x^2+y^2 < 1 \\ 0 & x^2+y^2 \geq 0 \end{cases}
@@ -9,6 +9,7 @@ Uniform disk geometrical model, i.e. the intensity profile
 i.e. a unit radius and unit flux disk.
 By default if T isn't given, `Disk` defaults to `Float64`
 """
+
 struct Disk{T} <: GeometricModel end
 Disk() = Disk{Float64}()
 radialextent(::Disk{T}) = 3.0
