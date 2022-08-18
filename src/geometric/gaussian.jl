@@ -37,5 +37,5 @@ Args:
     Default: `θunit=rad` and `ϕ=deg`.
 """
 function GaussianFilter(θmaj::Real, θmin::Real=-1, ϕ::Real=0; θunit=rad, ϕunit=deg)
-    return create_filter(Gaussian{T}, θmaj * σ2fwhm, θmin * σ2fwhm, ϕ, θunit=θunit, ϕunit=ϕunit)
+    return create_filter(Gaussian, θmaj * σ2fwhm, θmin * σ2fwhm, ϕ, θunit=θunit, ϕunit=ϕunit)
 end
