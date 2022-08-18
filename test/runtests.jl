@@ -1,6 +1,6 @@
-using SMILIModelBase
+using EHTModel
 using Test
 
-@testset "SMILIModelBase.jl" begin
+@testset "EHTModel.jl" begin
     # Write your tests here.
 end
