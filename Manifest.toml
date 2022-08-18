@@ -1,5 +1,6 @@
 # This file is machine-generated - editing it directly is not advised
 
+julia_version = "1.7.3"
 manifest_format = "2.0"
 
 [[deps.AbstractFFTs]]
@@ -158,7 +159,7 @@ uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 
 [[deps.EHTUtils]]
 deps = ["PhysicalConstants", "Unitful", "UnitfulAngles", "UnitfulAstro"]
-git-tree-sha1 = "6d414537b82fccf4a12411bfc558c5fa811b9899"
+git-tree-sha1 = "c3726290482d5b193be92ac2d1f7635d94c8b2fc"
 repo-rev = "main"
 repo-url = "https://github.com/EHTJulia/EHTUtils.jl"
 uuid = "9d0fa6a6-ae25-4c2e-8152-6c4b7f2016aa"
