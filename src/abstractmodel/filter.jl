@@ -28,12 +28,12 @@ function create_filter(
 
     # check θmaj
     if θmaj <= 0
-        @error "θmaj must be positive"
+        @throwerror ArgumentError "θmaj must be positive"
     end
 
     # check θmin
     if θmin > θmaj
-        @error "θmaj must be larger than θmin"
+        @throwerror ArgumentError "θmaj must be larger than θmin"
     end
 
     # Conversion factor for the angular scales

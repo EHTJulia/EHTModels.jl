@@ -36,12 +36,12 @@ function ButterworthFilter(
 )
     # check θmaj
     if umaj <= 0
-        @error "umaj must be positive"
+        @throwerror ArgumentError "umaj must be positive"
     end
 
     # check θmin
     if umin > umaj
-        @error "umaj must be larger than umin"
+        @throwerror ArgumentError "umaj must be larger than umin"
     end
 
     # Conversion factor for the angular scales
