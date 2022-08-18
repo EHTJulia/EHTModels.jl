@@ -13,7 +13,7 @@ in [`Comrade.AbstractModel`](@ref) for non-analytic models need to be implemente
 """
 abstract type GeometricModel <: AbstractModel end
 
-@inline flux(::Type{<:GeometricModel}) = 1.0
-@inline isprimitive(::Type{<:GeometricModel}) = IsPrimitive()
-@inline visanalytic(::Type{<:GeometricModel}) = IsAnalytic()
-@inline imanalytic(::Type{<:GeometricModel}) = IsAnalytic()
+@inline flux(::GeometricModel) = 1.0
+@inline isprimitive(::GeometricModel) = IsPrimitive()
+@inline visanalytic(::GeometricModel) = IsAnalytic()
+@inline imanalytic(::GeometricModel) = IsAnalytic()
