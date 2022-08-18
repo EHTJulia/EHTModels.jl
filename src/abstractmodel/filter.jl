@@ -33,7 +33,7 @@ function create_filter(
 
     # check θmin
     if θmin > θmaj
-        @error "θmin must be larger than θmaj"
+        @error "θmaj must be larger than θmin"
     end
 
     # Conversion factor for the angular scales

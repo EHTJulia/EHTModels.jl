@@ -24,7 +24,7 @@ radialextent(::Butterworth{T,N}) where {T,N} = 4.0
 
 @inline function visibility_point(::Butterworth{T,N}, u, v, args...) where {T,N}
     rsq = u^2 + v^2
-    return (1 + (1 / rsq)^N)^(-0.5) + zero(T)im
+    return (1 + rsq^N)^(-0.5) + zero(T)im
 end
 
 function ButterworthFilter(
