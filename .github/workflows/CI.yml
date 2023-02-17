@@ -54,6 +54,6 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using EHTModel
-            DocMeta.setdocmeta!(EHTModel, :DocTestSetup, :(using EHTModel); recursive=true)
-            doctest(EHTModel)'
+            using EHTModels
+            DocMeta.setdocmeta!(EHTModels, :DocTestSetup, :(using EHTModels); recursive=true)
+            doctest(EHTModels)'
