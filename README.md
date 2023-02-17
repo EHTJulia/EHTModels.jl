@@ -1,8 +1,8 @@
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://EHTJulia.github.io/EHTModel.jl/dev/)
-[![Build Status](https://github.com/EHTJulia/EHTModel.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/EHTJulia/EHTModel.jl/actions/workflows/CI.yml?query=branch%3Amain)
-[![Coverage](https://codecov.io/gh/EHTJulia/EHTModel.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/EHTJulia/EHTModel.jl)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://EHTJulia.github.io/EHTModels.jl/dev/)
+[![Build Status](https://github.com/EHTJulia/EHTModels.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/EHTJulia/EHTModels.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Coverage](https://codecov.io/gh/EHTJulia/EHTModels.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/EHTJulia/EHTModels.jl)
 
-# EHTModel
+# EHTModels
 This Julia package aims to provide a generic interface to handle various type of parametrized intensity models for radio and optical interfeometric data sets (in particular in the emphasis of VLBI data sets).
 
 The conceptial idea of the interface is largely based on the Lindy Blackburn's ([@lindybackburn](https://github.com/lindyblackburn)) python library [modmod](https://github.com/lindyblackburn/modmod), which allows:
@@ -14,5 +14,5 @@ This package is a partial fork (or purge) of the Paul Tiede's ([@ptiede](https:/
 
 
 ## Documentation
-The [latest](https://ehtjulia.github.io/EHTModel.jl/dev) version available. The stable version has not been released. 
+The [latest](https://ehtjulia.github.io/EHTModels.jl/dev) version available. The stable version has not been released. 
 

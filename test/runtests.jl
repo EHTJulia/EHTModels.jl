@@ -1,6 +1,6 @@
-using EHTModel
+using EHTModels
 using Test
 
-@testset "EHTModel.jl" begin
+@testset "EHTModels.jl" begin
     # Write your tests here.
 end
