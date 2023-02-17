@@ -1,4 +1,4 @@
-name = "EHTModel"
+name = "EHTModels"
 uuid = "aba06f68-8285-4329-b7bf-b3157c6bc00b"
 authors = ["Paul Tiede", "Kazunori Akiyama"]
 version = "0.1.0"

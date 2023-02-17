@@ -1,4 +1,5 @@
-module EHTModel
+module EHTModels
+
 # import packages
 using Accessors: @set
 using DocStringExtensions
