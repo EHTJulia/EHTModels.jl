@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = EHTModel
+CurrentModule = EHTModels
 ```
 
-# EHTModel
+# EHTModels
 
-Documentation for [EHTModel](https://github.com/EHTJulia/EHTModel.jl).
+Documentation for [EHTModels](https://github.com/EHTJulia/EHTModels.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [EHTModel]
+Modules = [EHTModels]
 ```

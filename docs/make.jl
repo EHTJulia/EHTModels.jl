@@ -1,16 +1,16 @@
-using EHTModel
+using EHTModels
 using Documenter
 
-DocMeta.setdocmeta!(EHTModel, :DocTestSetup, :(using EHTModel); recursive=true)
+DocMeta.setdocmeta!(EHTModels, :DocTestSetup, :(using EHTModels); recursive=true)
 
 makedocs(;
-    modules=[EHTModel],
+    modules=[EHTModels],
     authors="Paul Tiede, Kazunori Akiyama",
-    repo="https://github.com/EHTJulia/EHTModel.jl/blob/{commit}{path}#{line}",
-    sitename="EHTModel.jl",
+    repo="https://github.com/EHTJulia/EHTModels.jl/blob/{commit}{path}#{line}",
+    sitename="EHTModels.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://EHTJulia.github.io/EHTModel.jl",
+        canonical="https://EHTJulia.github.io/EHTModels.jl",
         edit_link="main",
         assets=String[]
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/EHTJulia/EHTModel.jl",
+    repo="github.com/EHTJulia/EHTModels.jl",
     devbranch="main"
 )

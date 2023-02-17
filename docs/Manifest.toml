@@ -175,7 +175,7 @@ version = "0.27.22"
 deps = ["ArgTools", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 
-[[deps.EHTModel]]
+[[deps.EHTModels]]
 deps = ["Accessors", "DocStringExtensions", "EHTUtils", "NFFT"]
 git-tree-sha1 = "96e12a14ac8488830a27771ee990dc0bbd10d3c9"
 repo-rev = "main"
