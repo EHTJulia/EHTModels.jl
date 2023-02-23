@@ -1,3 +1,8 @@
+using Pkg
+ENV["PYTHON"]=""
+Pkg.build("PyCall")
+using PyPlot
+
 using EHTModels
 using Documenter
 
