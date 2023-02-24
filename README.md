@@ -13,6 +13,15 @@ The conceptial idea of the interface is largely based on the Lindy Blackburn's (
 This package is a partial fork (or purge) of the Paul Tiede's ([@ptiede](https://github.com/ptiede)) Julia package [Comrade.jl](https://github.com/ptiede/Comrade.jl), implementing the above interface for the parameterized model. The pure Julia imprementation of parametrized models offer efficient integration of these functions into various inference packages available in Julia.
 
 
+# Installation
+Assuming that you already have Julia correctly installed, it suffices to import EHTModels.jl in the standard way:
+
+```julia
+using Pkg
+Pkg.add("EHTModels")
+```
+
+
 ## Documentation
 The [latest](https://ehtjulia.github.io/EHTModels.jl/dev) version available. The stable version has not been released. 
 
