@@ -21,7 +21,7 @@ Pkg.add("EHTModels")
 ```
 
 ## Documentation
-The documentation is in preparation, but docstrings of available functions are listed for the [latest](https://ehtjulia.github.io/EHTModels.jl/dev) version available. The stable version has not been released. 
+The documentation is in preparation, but docstrings of available functions are listed for the [latest](https://ehtjulia.github.io/EHTModels.jl/dev) version. The stable version has not been released. 
 
 
 ## Acknowledgement
