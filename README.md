@@ -25,7 +25,7 @@ The documentation is in preparation, but docstrings of available functions are l
 
 
 ## Acknowledgement
-The development of this package has been finantially supported by the following
-- v0.1.0 - v0.1.3: [ALMA North American Development Study Cycle 8](https://science.nrao.edu/facilities/alma/science_sustainability/alma-develop-history), National Radio Astronomy Observatory (NRAO), USA
+The development of this package has been finantially supported by the following programs.
+- v0.1.0 - v0.1.2: [ALMA North American Development Study Cycle 8](https://science.nrao.edu/facilities/alma/science_sustainability/alma-develop-history), National Radio Astronomy Observatory (NRAO), USA
 
 The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc.
