@@ -12,8 +12,7 @@ The conceptial idea of the interface is largely based on the Lindy Blackburn's (
 
 This package is a partial fork (or purge) of the Paul Tiede's ([@ptiede](https://github.com/ptiede)) Julia package [Comrade.jl](https://github.com/ptiede/Comrade.jl), implementing the above interface for the parameterized model. The pure Julia imprementation of parametrized models offer efficient integration of these functions into various inference packages available in Julia.
 
-
-# Installation
+## Installation
 Assuming that you already have Julia correctly installed, it suffices to import EHTModels.jl in the standard way:
 
 ```julia
@@ -21,7 +20,12 @@ using Pkg
 Pkg.add("EHTModels")
 ```
 
-
 ## Documentation
-The [latest](https://ehtjulia.github.io/EHTModels.jl/dev) version available. The stable version has not been released. 
+The documentation is in preparation, but docstrings of available functions are listed for the [latest](https://ehtjulia.github.io/EHTModels.jl/dev) version available. The stable version has not been released. 
 
+
+## Acknowledgement
+The development of this package has been finantially supported by the following
+- v0.1.0 - v0.1.3: [ALMA North American Development Study Cycle 8](https://science.nrao.edu/facilities/alma/science_sustainability/alma-develop-history), National Radio Astronomy Observatory (NRAO), USA
+
+The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc.
